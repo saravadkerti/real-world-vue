@@ -9,9 +9,9 @@
 import EventCard from '@/components/EventCard.vue'
 
 export default {
-  name: 'Home',
+  name: 'EventList',
   components: {
-    EventCard
+    EventCard,
   },
   data() {
     return {
@@ -25,7 +25,7 @@ export default {
           date: 'January 28, 2022',
           time: '12:00',
           petsAllowed: true,
-          organizer: 'Kat Laydee'
+          organizer: 'Kat Laydee',
         },
         {
           id: 4582797,
@@ -36,7 +36,7 @@ export default {
           date: 'March 14, 2022',
           time: '10:00',
           petsAllowed: true,
-          organizer: 'Fern Pollin'
+          organizer: 'Fern Pollin',
         },
         {
           id: 8419988,
@@ -47,11 +47,11 @@ export default {
           date: 'July 22, 2022',
           time: '11:00',
           petsAllowed: false,
-          organizer: 'Carey Wales'
-        }
-      ]
+          organizer: 'Carey Wales',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
