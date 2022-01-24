@@ -22,14 +22,14 @@ export default {
   created() {
     EventService.getEvents()
       // .get('https://my-json-server.typicode.com/saravadkerti/real-world-vue/events')
-      .then(response => {
-        this.events = response.data
+      .then((response) => {
+        this.events = response.data;
       })
-      .catch(error => {
-        console.log(error)
-      })
-  }
-}
+      .catch((error) => {
+        console.log(error);
+      });
+  },
+};
 </script>
 
 <style scoped>
